@@ -118,6 +118,10 @@
     }
 
     consoleReplay = ReactOnRails.buildConsoleReplay();
+    
+    // the 2nd param is no longer just the consoleReplay, it's js and could be set by the router redirect!
+    
+    
     return JSON.stringify([htmlResult, consoleReplay]);
   };
 
